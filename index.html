@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <title>Знайко и Тела и Вещества</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+        <div id="header">
+            <img src="Zn.jpeg" alt="Знайко" id="znayko">
+            <div id="score">Точки: <span id="points">0</span></div>
+        </div>
+        <div id="question-box">
+            <p id="question">Тук ще се показва въпросът</p>
+            <div id="answers">
+                <button class="answer" onclick="checkAnswer(0)">Отговор 1</button>
+                <button class="answer" onclick="checkAnswer(1)">Отговор 2</button>
+                <button class="answer" onclick="checkAnswer(2)">Отговор 3</button>
+            </div>
+            <button id="next-question" onclick="nextQuestion()">Следващ въпрос</button>
+        </div>
+        <div id="end-screen">
+            <p id="final-score">Вие събрахте общо ... точки</p>
+            <p id="final-message"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

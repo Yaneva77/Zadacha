@@ -1,0 +1,41 @@
+#game {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#znayko {
+    height: 80px;
+}
+
+#score {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.answer {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    cursor: pointer;
+}
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+#next-question, #end-screen {
+    display: none;
+}
